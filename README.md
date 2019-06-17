@@ -40,12 +40,21 @@ to add an institution logo to the poster.
 Gemini currently includes three color themes:
 
 * `gemini` (default)
+* `tud`
 * `mit`
 * `labsix`
 
 The alternative themes are intended to be inspiration for you to make your own
 color theme. You're highly recommended to make your own color theme (it's
 really easy!) or use the default Gemini theme.
+
+## TU Delft theme
+
+<p align="center">
+<a href="https://raw.githubusercontent.com/nsalminen/gemini/assets/poster-tud.pdf">
+<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-tud-small.png">
+</a>
+</p>
 
 ## MIT theme
 
