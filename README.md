@@ -52,7 +52,7 @@ really easy!) or use the default Gemini theme.
 
 <p align="center">
 <a href="https://raw.githubusercontent.com/nsalminen/gemini/assets/poster-tud.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-tud-small.png">
+<img src="https://raw.githubusercontent.com/nsalminen/gemini/assets/poster-tud-small.png">
 </a>
 </p>
 
