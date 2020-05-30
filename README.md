@@ -37,7 +37,7 @@ to add an institution logo to the poster.
 
 # Themes
 
-Gemini currently includes three color themes:
+Gemini currently includes four color themes:
 
 * `gemini` (default)
 * `tud`
