@@ -1,4 +1,4 @@
-# Gemini
+# Gemini [![Build Status](https://travis-ci.com/anishathalye/gemini.svg?branch=master)](https://travis-ci.com/anishathalye/gemini)
 
 Gemini is a modern LaTeX [beamerposter] theme.
 
@@ -8,16 +8,17 @@ Gemini is a modern LaTeX [beamerposter] theme.
 </a>
 </p>
 
-[![Build Status](https://travis-ci.org/anishathalye/gemini.svg?branch=master)](https://travis-ci.org/anishathalye/gemini)
+If you're looking for a beamer presentation theme, take a look at [Auriga].
 
-# Dependencies
+## Dependencies
 
 * A TeX installation that includes [LuaTeX]
+    * You also need `latexmk` if you want to use the provided `Makefile`
 * LaTeX package dependencies including beamerposter (these usually come with
   your TeX installation, but if not, you can get them from [CTAN])
 * [Raleway] and [Lato], which are both available under Open Font License
 
-# Usage
+## Usage
 
 1. Copy the files in this repository (or clone the repository)
 
@@ -30,12 +31,12 @@ Gemini is a modern LaTeX [beamerposter] theme.
 
 1. Run `make` to build your poster
 
-# FAQ
+## FAQ
 
 See the [FAQ] in the Wiki for answers to frequently asked questions such as how
 to add an institution logo to the poster.
 
-# Themes
+## Themes
 
 Gemini currently includes four color themes:
 
@@ -48,7 +49,7 @@ The alternative themes are intended to be inspiration for you to make your own
 color theme. You're highly recommended to make your own color theme (it's
 really easy!) or use the default Gemini theme.
 
-## TU Delft theme
+### TU Delft theme
 
 <p align="center">
 <a href="https://raw.githubusercontent.com/nsalminen/gemini/assets/poster-tud.pdf">
@@ -56,7 +57,7 @@ really easy!) or use the default Gemini theme.
 </a>
 </p>
 
-## MIT theme
+### MIT theme
 
 <p align="center">
 <a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-mit.pdf">
@@ -64,7 +65,7 @@ really easy!) or use the default Gemini theme.
 </a>
 </p>
 
-## LabSix theme
+### LabSix theme
 
 <p align="center">
 <a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-labsix.pdf">
@@ -72,25 +73,26 @@ really easy!) or use the default Gemini theme.
 </a>
 </p>
 
-# Design goals
+## Design goals
 
 * **Minimal**: clean and easy to read, so that the emphasis is on the content
 * **Batteries included**: works and looks good out of the box
 * **Easy theming**: easy to create and use a new color theme
 
-# Contributing
+## Contributing
 
 Contributions to Gemini such as bug reports, new themes, and new poster
 components are greatly appreciated! Given the subjective nature of design,
 you're encouraged to open an issue or pull request early to get feedback before
 investing a lot of time in implementing a new feature.
 
-# License
+## License
 
-Copyright (c) 2018-2019 Anish Athalye. Released under the MIT License. See
+Copyright (c) 2018-2020 Anish Athalye. Released under the MIT License. See
 [LICENSE.md][license] for details.
 
 [beamerposter]: https://github.com/deselaers/latex-beamerposter
+[Auriga]: https://github.com/anishathalye/auriga
 [LuaTeX]: http://www.luatex.org/
 [CTAN]: https://ctan.org/
 [Raleway]: https://www.fontsquirrel.com/fonts/raleway
